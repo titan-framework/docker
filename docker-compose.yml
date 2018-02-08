@@ -1,0 +1,5 @@
+version: '3'
+services:
+  instance:
+    build: .
+    image: carromeu/titan-framework
