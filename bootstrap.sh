@@ -14,7 +14,7 @@ echo "Install a lot of dependencies..."
 echo "postfix postfix/mailname string localhost" | debconf-set-selections
 echo "postfix postfix/main_mailer_type string 'Internet Site'" | debconf-set-selections
 
-DEBIAN_FRONTEND=noninteractive apt-get install -y antiword curl default-jdk git libav-tools locales mailutils memcached nginx php7.0-fpm php7.0-cli php7.0-curl php7.0-dev php7.0-gd php7.0-imagick php7.0-ldap php7.0-mbstring php7.0-mcrypt php7.0-memcached php7.0-pgsql php7.0-sqlite postfix postgresql-9.6 unzip vim xpdf-utils
+DEBIAN_FRONTEND=noninteractive apt-get install -y antiword curl default-jdk git imagemagick libav-tools locales mailutils memcached nginx php7.0-fpm php7.0-cli php7.0-curl php7.0-dev php7.0-gd php7.0-imagick php7.0-ldap php7.0-mbstring php7.0-mcrypt php7.0-memcached php7.0-pgsql php7.0-sqlite postfix postgresql-9.6 unzip vim xpdf-utils
 
 echo "Done!"
 
